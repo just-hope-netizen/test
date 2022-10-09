@@ -1,6 +1,6 @@
-function Spinner() {
+function Spinner({className}) {
     return (
-      <div className='lds-spinner'>
+      <div className={`lds-spinner ${className}`}>
         <div></div>
         <div></div>
         <div></div>
