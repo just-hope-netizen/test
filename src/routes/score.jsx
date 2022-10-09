@@ -57,7 +57,7 @@ function Score() {
               <tbody>
                 {scores?.map((score, index) => (
                   <tr key={index}>
-                    <th scope='row'>{index}</th>
+                    <th scope='row'>{index + 1}</th>
                     <td>{score.user?.name}</td>
                     <td>{score.user?.email}</td>
                     <td>{score.user?.age}</td>
