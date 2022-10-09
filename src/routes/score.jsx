@@ -20,7 +20,8 @@ function Score() {
     });
 
   }, [scores]);
-console.log(scores);
+
+  
   return (
      <><button
       className='btn  btn-dark '

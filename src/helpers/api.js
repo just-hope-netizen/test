@@ -1,4 +1,5 @@
-const backendHost = 'http://localhost:2000/'
+// const backendHost = 'http://localhost:2000/'
+const backendHost = 'https://test-backend-li.herokuapp.com/'
 
 export function signup(data) {
     return new Promise((res, rej) => {
