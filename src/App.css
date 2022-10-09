@@ -30,7 +30,7 @@ label {
   z-index: 2;
   margin-top: 1rem;
 }
-.btn-dark{
+.btn-light{
   position: absolute;
   top: 10px;
   z-index: 3;

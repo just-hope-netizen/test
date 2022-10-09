@@ -32,7 +32,7 @@ function Score() {
       ) : (
         <>
           <button
-            className='btn  btn-dark '
+            className='btn  btn-light '
             type='button'
             onClick={() => navigate('/')}
           >
@@ -40,7 +40,7 @@ function Score() {
             Go back
           </button>
           <div className='table-responsive'>
-            <table className='table table-striped table-dark my-5  container'>
+            <table className='table table-striped table-light my-5  container'>
               <thead>
                 <tr>
                   <th scope='col'>#</th>
