@@ -26,6 +26,9 @@ label {
   z-index: 1;
   height: fit-content;
 }
+.table-responsive{
+  z-index: 5;
+}
 .btn-dark{
   position: absolute;
   top: 10px;
